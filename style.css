@@ -1,0 +1,11 @@
+body {
+    font-family: sans-serif;
+    max-width: 800px;
+    margin: 20 auto;
+}
+
+#canHolder {
+    width: 800px;
+    display: block;
+    margin: 0 auto;
+}

@@ -1,0 +1,22 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Controling Canvas Placement</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="sketch.js"></script>
+</head>
+
+<body>
+    <h1>Where does the drawing oocur?</h1>
+    <div id="canHolder"></div>
+    <p>Normally the <code>canvas</code> element created by the <code>setup</code> p5js function is placed last within the body element of the html DOM. There are ways to override that behaviour though, where creating a html element with an id and refering
+        the p5ja canvas to that element is the method we use here. </p>
+</body>
+
+</html>
